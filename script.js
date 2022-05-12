@@ -25,9 +25,9 @@ if(firstname !== "" &&  lastname !== "" &&  phone !== ""){
             duration: 500
         });
     }
-$('.text-content').append(`<h2>${firstname}</h2>`);
-$('.text-content').append(`<h2> ${lastname} </h2>`);
-$('.text-content').append(`<h2> ${phone} </h2>`);
+$('.text-content').append(`<h2> Name - ${firstname}</h2>`);
+$('.text-content').append(`<h2>Lastname - ${lastname} </h2>`);
+$('.text-content').append(`<h2>Phone Number - ${phone} </h2>`);
 });
 $(".next").click(function(){
    
@@ -54,8 +54,8 @@ $(".next").click(function(){
            });
        }
       
-       $('.text-content').append(`<h2> ${pass} </h2>`);
-       $('.text-content').append(`<h2> ${email} </h2>`);
+       $('.text-content').append(`<h2>Password - ${pass} </h2>`);
+       $('.text-content').append(`<h2>Email - ${email} </h2>`);
 
     });
 
