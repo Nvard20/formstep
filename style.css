@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+#form {
+    position: relative;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+#form .group {
+    background: white;
+    border: 0 none;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+    position: relative
+}
+.addcolor{
+    background: #3a6ab759;
+}
+.text-content > h2{
+    text-align: center;
+    color: royalblue;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.form-card > h1{
+    text-align: center;
+    font-size: 44px;
+    font-family: sans-serif;
+}
+
+#form .group:not(:first-of-type) {
+    display: none
+}
+.container{
+    margin-top: 70px;
+
+}
+#form input,
+#form  {
+    padding: 8px 15px 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 25px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #2C3E50;
+
+    font-size: 16px;
+    letter-spacing: 1px
+}
+
+#form input:focus,
+#form textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #3a6ab7;
+    outline-width: 0
+}
+
+#form .action-button {
+    width: 100px;
+    background: #3a6ab7;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 0px 10px 5px;
+}
+#form .next {
+    width: 100px;
+    background: #3a6ab7;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 0px 10px 5px;
+}
+
+
+#form .action-button-previous {
+    width: 100px;
+    background: #616161;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px 10px 0px;
+}
+
+#form .action-button-previous:hover,
+#form .action-button-previous:focus {
+    background-color: #000000
+}
+
+.card {
+    position: relative
+}
+
+
+
+.steps {
+    font-size: 25px;
+    color: gray;
+    margin-bottom: 10px;
+    font-weight: normal;
+    text-align: right
+}
+
+
+
+
+
+
+
+
+
+
